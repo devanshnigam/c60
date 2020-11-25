@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(184, 116, 197, 1) 53%, rgba(253, 201, 45, 1) 100%);
+    background repeat: no repeat;
+}
+
+h1 {
+    text shadow: 2px 2px #F8BBDO;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+img:hover
+{
+    transform: scale(0.9)
+}
+img {
+    border-radius: 50%;
+    width: 100px;
+    transition: transform .2s;
+    border: 10 px solid #AAAAAA
+}
+
+myH {
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(184, 116, 197, 1) 53%, rgba(253, 201, 45, 1) 100%);
+    background repeat: no repeat;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+}
+
+bio {
+    background: rgb(116, 197, 197);
+    background: linear-gradient(0deg, rgba(116, 197, 197, 1) 53%, rgba(174, 199, 132, 1) 73%, rgba(253, 201, 45, 1) 88%);
+}
+
+
+li {
+    list-style: none;
+    font-family: cursives;
+    top: 10px;
+    right: 30px cursor: pointer;
+    color: black;
+    display: inline;
+    float: center;
+}
+}
+
+#li hover {
+    color: chocolate;
+}
